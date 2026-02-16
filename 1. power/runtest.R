@@ -20,13 +20,13 @@ runtest <- function(dat, type){
   else if (type == 'disp2'){ 
     base <- lme(phe ~ time, data = dat, random = list(id=~1), method = "ML", control = lmeControl(opt = "optim"))
     mod <- lme(phe ~ time + snp, data = dat, random = list(id=~1), weights = varIdent(value = c("1"=1, "2"=1), form = ~1|snp), method = "ML", control = lmeControl(opt = "optim")) # value ensures snp 0 is the ref
-    lrt <- anova(base, mod) # cannot use this if there is mean effect
+    lrt <- anova(base, mod) # cannot use this if there is mean effect unless you add snp mean effect in base
     lrt$'p-value'[2]
   }
   else if (type == 'disp3'){
     base <- lme(phe ~ time, data = dat, random = list(id=~1), method = "ML", control = lmeControl(opt = "optim"))
     mod <- lme(phe ~ time + snp, data = dat, random = list(id=~1), weights = varExp(form = ~ snp), method = "ML", control = lmeControl(opt = "optim"))
-    lrt <- anova(base, mod) # cannot use this if there is mean effect
+    lrt <- anova(base, mod) # cannot use this if there is mean effect unless you add snp mean effect in base
     lrt$'p-value'[2]
   }
 }
