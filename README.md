@@ -14,8 +14,8 @@ A few notes on the analytic pipeline:
 
 1. Each phenotype per time point was residualized on the GRM using GCTA.
 2. The order of the analysis dataframe containing the phenotype and covariates must be aligned with the genotype file (using the .fam file).
-3. The pipeline runs on multiple nodes in parallel using HPC Colossus (Linux). It is computationally intensive.
-4. The inputs in the bash are: blocks (nodes), number of SNPs per block, total number of SNPs, analysis dataframe, plink files, and output files.
+3. The pipeline runs on multiple cores and nodes in parallel using HPC Colossus (Linux). It is computationally intensive.
+4. The inputs in the bash are: blocks (cores), number of SNPs per block, total number of SNPs, analysis dataframe, plink files, and output files.
 5. Each output file contains 2000 SNPs. They need to be combined into 1 summary statistics file.
 6. Since we relied on LRT to assess SNP mean and variance effect, we repeated the analysis two times for significant SNPs where a) we added PCs in the residual, and for those that remain significant, b) isolated "variance" SNPs by comparing a mean only against a mean-and-variance model.
 7. Variance SNPs are sensitive to non-normality. It is recommended to transform non-normal phenotypes and rerun the pipeline to see if the detected SNP variance effects are scale-dependent.
