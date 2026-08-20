@@ -10,7 +10,7 @@ To re-create the simulations:
 
 A few notes on the analytic pipeline:
 
-1. The genotype file (.bed, .bim, .fam) were first converted to FBM, R-readable files using the R package bigsnpr from Florian Prive.
+1. The genotype files (.bed, .bim, .fam) were first converted to FBM, R-readable files using the R package bigsnpr from Florian Prive.
 2. Each phenotype per time point was residualized on the GRM using GCTA.
 3. The order of the analysis dataframe containing the phenotype and covariates must be aligned with the genotype file (using the .fam file).
 4. The pipeline runs on multiple cores and nodes in parallel using HPC Colossus (Linux). It is computationally intensive but work is on-going to improve this.
