@@ -34,6 +34,5 @@ This work was funded by European Union’s (EU’s) Horizon Europe research and 
 This project utilized the following R packages for analysis and visualization. If you reproduce or build upon this workflow, please ensure they are properly credited:
 
 * **bigsnpr**: Privé, F., Aschard, H., Ziyatdinov, A., & Blum, M. G. B. (2018). Efficient analysis of large-scale genome-wide data with two R packages. *Bioinformatics*, 34(16), 2781–2787. https://doi.org
-* **BioCircos**: Cui, Y., Chen, X., Luo, H., Fan, Z., Huang, J., He, S., & Zhang, W. (2016). BioCircos.js: an interactive Circos JavaScript library for biological data visualization. *Bioinformatics*, 32(11), 1740–1742. https://doi.org
 * **nlme**: Pinheiro, J., Bates, D., & R Core Team (2026). nlme: Linear and Nonlinear Mixed Effects Models. R package version 3.1-170. https://r-project.org
-
+* **BioCircos**: Cui, Y., Chen, X., Luo, H., Fan, Z., Huang, J., He, S., & Zhang, W. (2016). BioCircos.js: an interactive Circos JavaScript library for biological data visualization. *Bioinformatics*, 32(11), 1740–1742. https://doi.org
