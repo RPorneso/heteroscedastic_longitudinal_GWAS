@@ -1,6 +1,4 @@
-Simulation codes and analytic pipeline repository for the manuscript "**Longitudinal modelling reveals widespread non-additive genetic effects underlying developmental plasticity**". 
-
-Link to preprint: https://www.biorxiv.org/content/10.64898/2025.12.19.695443v1.full.
+Simulation codes and analytic pipeline repository for the manuscript "**Longitudinal modelling reveals putative non-additive genetic loci in trait developmental**". Link to publication: https://www.cell.com/cell-reports/fulltext/S2211-1247(26)00918-6.
 
 To re-create the simulations:
 
@@ -21,6 +19,10 @@ A few notes on the analytic pipeline:
 7. Variance SNPs are sensitive to non-normality. It is recommended to transform non-normal phenotypes and rerun the pipeline to see if the detected SNP variance effects are scale-dependent.
 
 **Citation**
+
+Porneso, R., Havdahl, A., Eilertsen, E. M., & Ystrom, E. (2026). Longitudinal genome-wide analysis reveals putative non-additive loci in trait development. Cell Reports, 45(8), 117840. https://doi.org/10.1016/j.celrep.2026.117840
+
+**Preprint**
 
 Porneso, R., Havdahl, A., Eilertsen, E., & Ystrom, E. (2025). Longitudinal modelling reveals widespread non-additive genetic effects underlying developmental plasticity. bioRxiv. https://doi.org/10.64898/2025.12.19.695443
 
