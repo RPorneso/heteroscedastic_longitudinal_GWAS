@@ -27,9 +27,9 @@ Porneso, R., Havdahl, A., Eilertsen, E. M., & Ystrom, E. (2026). Longitudinal ge
 
 Porneso, R., Havdahl, A., Eilertsen, E., & Ystrom, E. (2025). Longitudinal modelling reveals widespread non-additive genetic effects underlying developmental plasticity. bioRxiv. https://doi.org/10.64898/2025.12.19.695443
 
-**R Packages**
+**Acknowledgement** 
 
-### Software & Packages Used
+This work was funded by European Union’s (EU’s) Horizon Europe research and innovation program under the Marie Skłodowska-Curie grant agreement (no. ESSGN 101073237), the EU grant agreement (grant no. 101045526, project GeoGen), and by Sigma2 (grant no. NS9867S).
 
 This project utilized the following R packages for analysis and visualization. If you reproduce or build upon this workflow, please ensure they are properly credited:
 
@@ -37,6 +37,3 @@ This project utilized the following R packages for analysis and visualization. I
 * **BioCircos**: Cui, Y., Chen, X., Luo, H., Fan, Z., Huang, J., He, S., & Zhang, W. (2016). BioCircos.js: an interactive Circos JavaScript library for biological data visualization. *Bioinformatics*, 32(11), 1740–1742. https://doi.org
 * **nlme**: Pinheiro, J., Bates, D., & R Core Team (2026). nlme: Linear and Nonlinear Mixed Effects Models. R package version 3.1-170. https://r-project.org
 
-**Acknowledgement** 
-
-This work was funded by European Union’s (EU’s) Horizon Europe research and innovation program under the Marie Skłodowska-Curie grant agreement (no. ESSGN 101073237), the EU grant agreement (grant no. 101045526, project GeoGen), and by Sigma2 (grant no. NS9867S).
