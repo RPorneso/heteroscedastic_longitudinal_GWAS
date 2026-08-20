@@ -1,4 +1,4 @@
-Simulation codes and analytic pipeline repository for the manuscript "**Longitudinal modelling reveals putative non-additive genetic loci in trait developmental**". Link to publication: https://www.cell.com/cell-reports/fulltext/S2211-1247(26)00918-6.
+Simulation codes and analytic pipeline repository for the manuscript "**Longitudinal genome-wide analysis reveals putative non-additive loci in trait developmental**". Link to publication: https://www.cell.com/cell-reports/fulltext/S2211-1247(26)00918-6.
 
 To re-create the simulations:
 
